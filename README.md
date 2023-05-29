@@ -9,8 +9,11 @@ Setting up database
 `mysql -u root -p workshop`
 
 Enter password `rootuser`
+
 Then create the table with
+
 `create table users (username VARCHAR(255) NOT NULL, name VARCHAR(255) NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL);`
+
 `create table usersession (username VARCHAR(255) NOT NULL, session VARCHAR(255) NOT NULL);`
 
 Open browser and type in the url `http://localhost`
